@@ -2,9 +2,9 @@
 
 *Home tasks are:*
 
-• Create tasks and delete.<br>
-• Assign task priority change priority.<br>
-• Create idle task hook.<br>
+â€¢ Create tasks and delete.<br>
+â€¢ Assign task priority change priority.<br>
+â€¢ Create idle task hook.<br>
 
 **Requirements**
 
@@ -12,6 +12,7 @@ Keil uVision v5.35.0.0<br>
 STM32CubeMX v6.3.0<br>
 
 **Notes**
+
 There are to tasks created in the program from the very begining. The first task is used 
 to read periodically the state of the user button. The second task calculates the CPU load
 and this calculation in based on the task profiler values. The idle task hook is also implemented.
